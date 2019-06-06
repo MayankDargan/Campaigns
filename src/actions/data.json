@@ -1,0 +1,60 @@
+{
+    "campaigns":[{
+        "name":"ABC",
+        "date":"2017-10-09",
+        "icon":"",
+        "country":["US"]
+    },
+    {
+        "name":"DEF",
+        "date":"2019-10-20",
+        "icon":"",
+        "country":["JP","FR","IN"]
+
+    },
+    {
+        "name":"GHI",
+        "date":"2018-01-19",
+        "icon":"",
+        "country":["PK","NO","AT"]
+
+    },
+    {
+        "name":"JKL",
+        "date":"2017-12-27",
+        "icon":"",
+        "country":["IN"]
+    },
+    {
+        "name":"MNO",
+        "date":"2018-12-19",
+        "icon":"",
+        "country":["US"]
+    },
+    {
+        "name":"PQR",
+        "date":"2019-05-20",
+        "icon":"",
+        "country":["FI"]
+    },
+    {
+        "name":"STU",
+        "date":"2019-07-28",
+        "icon":"",
+        "country":["NO"]
+    },
+    {
+        "name":"VWX",
+        "date":"2017-08-18",
+        "icon":"",
+        "country":["IN"]
+
+    },
+    {
+        "name":"YZ",
+        "date":"2019-05-22",
+        "icon":"",
+        "country":["IN"]
+
+    }]
+}

@@ -1,0 +1,130 @@
+thead tr th{
+    text-transform: uppercase;
+}
+
+.bodyHeader{
+    color : rgb(22,71,121);
+    margin: 5% auto 2% auto;
+}
+
+.bodyHeader h1 span{
+    font-weight: 100;
+}
+
+.nav{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.nav-list {
+    width: 100%;
+    padding-left: 0;
+}
+
+.nav-link{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    width: 30%;
+    background: rgb(133,161,43) !important;
+    margin-left: 3%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 2px solid rgb(133,161,43) !important;
+}
+
+.nav-link:first-child{
+    margin-left: 0;
+}
+
+.nav-link.active{
+    background: white !important;
+    color: rgb(133,161,43) !important;
+    border: 2px solid rgb(133,161,43) !important;
+}
+
+.triangle {
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid rgb(133,161,43);
+    left: 82%;
+    position: relative;
+}
+
+.over-triangle {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid rgb(133,161,43);
+    position: relative;
+    top: -10px;
+    left: -5px;
+}
+
+.view{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    background: black;
+    display: block;
+    padding: 8px;
+    position: relative;
+    left: 40%;
+}
+
+svg[data-icon="plus"]{
+    font-size: 10px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+}
+
+.action{
+    width: 30%;
+    margin-left: 1%;
+    display: inline-block;
+}
+
+.action:first{
+    margin-left: 0;
+}
+
+.action span{
+    display: block;
+    width: 100%;
+    font-size: 14px;
+}
+
+.view-pricing{
+    font-size: 14px;
+}
+
+.campaignDate span, .campaignDate small,.campaignName span, .campaignName small{
+    width: 100%;
+    display: block;
+    text-align: left;
+}
+
+
+@media all and (max-width: 640px) and (min-width: 320px){
+    .action{
+        display: block;
+    }
+    .view{
+        height: 30px;
+        width: 30px;
+        left: 20%;
+        font-size: 60%;
+        padding: 7px;
+
+    }
+    svg[data-icon="plus"]{
+        font-size: 8px;
+    }
+    span,small{
+        font-size: 60% !important;
+    }
+}
